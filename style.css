@@ -1,0 +1,67 @@
+.cv {
+    color: aliceblue;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+
+  }
+
+  .nama {
+    color: rgb(62, 194, 194);
+    font-family: "Times New Roman", Times, serif;
+    width: 50%;
+    margin: -5px;
+  }
+  .sosmed {
+    color: rgb(62, 194, 194);
+    font-family: "Times New Roman", Times, serif;
+    width: 15%;
+    margin: 10px;
+  }
+  .sekolah {
+    margin-top: -20px;
+    color: rgb(14, 131, 131);
+  }
+  .bio {
+    color: rgb(198, 199, 201);
+  }
+  a {
+    margin-right: 20px;
+    color: aqua;
+    font-size: large;
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: larger;
+    color: aliceblue;
+  }
+  ul li {
+    margin-bottom: 15px;
+  }
+  .calendar-container {
+    display: flex;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #36454F;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  /* CSS untuk setiap item bulan */
+  .month {
+    flex: 1 1 30%; /* Ukuran fleksibel dengan lebar minimum 30% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1d1c1c;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+  }
