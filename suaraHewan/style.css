@@ -1,0 +1,17 @@
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hewan img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
